@@ -1,0 +1,20 @@
+OS used: Ubuntu 18.04.4 LTS (GNU/Linux 4.19.105-v8-28 aarch64) 64 Bit
+
+
+
+Check you OS:
+
+$ lsb_release -a
+
+You'll see information about the running OS.
+
+
+
+Check 64 Bit:
+
+$ getconf LONG_BIT
+
+If output is 64 then you have a 64 Bit OS running
+
+
+
